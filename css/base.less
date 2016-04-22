@@ -1,3 +1,218 @@
+/*
+* date 2016-4-21
+* last time  2016-4-22
+* author  kaiser
+*/
+/*=========重置==========*/
 @import "reset.css";
 
+/*==========bootstrap定制========*/
+a:hover{
+  text-decoration: none;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+}
+.clearfix {
+  *zoom:1
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after{
+  display: table;
+  content: "";
+  line-height:0;
+}
+.container:after,
+.clearfix:after,
+.row:after{
+  clear: both;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.mar-10{
+  margin: 0 10px;
+}
+.warp{
+  padding: 10px;
+}
+/*========header=========*/
+header{
+  position: relative;
+}
+.warp{
+  display: block;
+  background: #fff;
+  background-repeat: no-repeat;
+}
+.logo{
+  height: 165px;
+  background-image: url("../images/雷霆团_02.png");
+  background-position: 50% 0;
+}
+.top-nav{
+  position: relative;
+  background: #fff;
+
+}
+.top-nav-important{
+  position: relative;
+  background: #fff;
+}
+.top-nav-list{
+  position: relative;
+  overflow: hidden;
+}
+.top-nav-item{
+  float: left;
+  display: inline-block;
+  width:12%;
+  position: relative;
+  a{
+    background: url("../images/top_nav_bg.png") repeat-x;
+    padding: 10px 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    &:hover{
+      text-decoration: none;
+      background: #CB0305;
+    }
+    &.active{
+      background: #CB0305;
+    }
+  }
+}
+
+
+/*======section one========*/
+
+.section-one{
+  position: relative;
+}
+.section-one-news{
+  position: relative;
+  width: 730px;
+  height: 315px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px red solid;
+}
+.section-one-slide-wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.section-one-slide-item{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 1px red solid;
+  left: -100%;
+  opacity: 0;
+}
+.section-one-slide-item.active{
+  left: 0;
+}
+
+.section-one-notice{
+  position: relative;
+  width: 260px;
+  height: 315px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px red solid;
+}
+
+
+/*=========section two======*/
+
+.section-two{
+  position: relative;
+
+}
+.announce{
+  height: 100px;
+  background-image: url("../images/announce.png");
+  margin-bottom: 10px;
+}
+.section-two-nes{
+  position: relative;
+  width: 754px;
+  height: 561px;
+  border: 1px red solid;
+}
+.section-one-news-item{
+  position: relative;
+  float: left;
+  width: 33%;
+  height: 280px;
+  border: 1px red solid;
+}
+.section-two-connection{
+  position: relative;
+  width: 230px;
+  height: 561px;
+  border:1px red solid;
+}
+
+
+
+/*==========section-three======*/
+.section-three{
+  position: relative;
+
+}
+.section-three-slide{
+  margin-top: 20px;
+  position: relative;
+  height: 180px;
+  border:1px red solid;
+}
+
+
+/*==========section-four====*/
+
+
+.section-four{
+  position: relative;
+}
+.section-four-link{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  border: 1px red solid;
+}
+/*==========footer=========*/
+.footer_bg{
+  position: relative;
+  height: 94px;
+  padding-top: 20px;
+  margin-top: 20px;
+  background: url("../images/footer_bg.png") repeat-x;
+  text-align: center;
+}
+.footer-intro{
+  color: #656565;
+  line-height: 25px;
+}
+.footer-intro-item{
+  margin-right: 20px;
+}
 

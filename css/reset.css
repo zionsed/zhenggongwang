@@ -14,6 +14,7 @@ a:hover{text-decoration:underline;}
 .red, .red a, a.red{color:red;}.green{color:#0E774A}
 select optgroup{color:#CAC8BB;}
 header{ display:block}
+
 /*通用样式*/
 .hidden{display:none;}.invisible{visibility:hidden;}
 .ib,.ib-a a{display:inline-block;zoom:1;*display:inline;}
